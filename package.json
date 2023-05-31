@@ -4,7 +4,8 @@
   "description": "Validates and processes payments through the Stripe payment gateway to ensure their security.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "keywords": [
     "stripe",

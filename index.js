@@ -8,7 +8,7 @@ const { ordersRouter } = require("./routes/orders-routes");
 
 const app = express();
 app.use(cors({ origin: true }));
-const port = 8080;
+const port = process.env.PORT || 8080;
 const url = process.env.DB_URL;
 
 app.use(express.json());
