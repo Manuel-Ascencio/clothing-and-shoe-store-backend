@@ -1,0 +1,28 @@
+{
+  "name": "stripe-payment-validation",
+  "version": "1.0.0",
+  "description": "Validates and processes payments through the Stripe payment gateway to ensure their security.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "stripe",
+    "payment-gateway"
+  ],
+  "author": "Jesus Manuel",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "joi": "^17.8.4",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.1",
+    "stripe": "^11.12.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
