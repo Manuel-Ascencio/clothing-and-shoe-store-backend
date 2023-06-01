@@ -58,8 +58,8 @@ exports.createCheckoutSession = async (req, res) => {
       },
     ],
     line_items,
-    success_url: `${domainUrl}/checkout-success`,
-    cancel_url: `${domainUrl}/selected-products`,
+    success_url: `${domainUrl}/#/checkout-success`,
+    cancel_url: `${domainUrl}/#/selected-products`,
   });
 
   res.send({ url: session.url });
