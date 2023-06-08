@@ -19,7 +19,7 @@ app.use("/api/stripe", stripeRouter);
 
 app.use("/api/orders", ordersRouter);
 
-app.get("/", (req, res) => res.send("server listening..."));
+app.get("/", (req, res) => res.send("Server listening..."));
 
 app.listen(port, () => console.log(`app running on port ${port}`));
 
